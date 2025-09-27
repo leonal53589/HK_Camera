@@ -370,11 +370,4 @@ lib/CMakeFiles/mv_lib.dir/src/Camera.cpp.o: \
  /opt/MVS/include/MvISPErrorDefine.h /opt/MVS/include/CameraParams.h \
  /opt/MVS/include/PixelType.h /opt/MVS/include/MvObsoleteInterfaces.h \
  /opt/MVS/include/ObsoleteCamParams.h \
- /home/leona/Projects/OpenCV_learn/Camera_encapsulation/lib/include/Camera.tpp \
- /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
- /usr/include/x86_64-linux-gnu/bits/environments.h \
- /usr/include/x86_64-linux-gnu/bits/confname.h \
- /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
- /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
- /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
- /usr/include/linux/close_range.h
+ /home/leona/Projects/OpenCV_learn/Camera_encapsulation/lib/include/Camera.tpp
