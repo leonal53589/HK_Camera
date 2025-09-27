@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmv_lib.a CMakeFiles/mv_lib.dir/src/Camera.cpp.o
+/usr/bin/ranlib libmv_lib.a

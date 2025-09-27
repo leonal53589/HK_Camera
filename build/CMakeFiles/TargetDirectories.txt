@@ -1,0 +1,8 @@
+/home/leona/Projects/OpenCV_learn/Camera_encapsulation/build/CMakeFiles/edit_cache.dir
+/home/leona/Projects/OpenCV_learn/Camera_encapsulation/build/CMakeFiles/rebuild_cache.dir
+/home/leona/Projects/OpenCV_learn/Camera_encapsulation/build/lib/CMakeFiles/mv_lib.dir
+/home/leona/Projects/OpenCV_learn/Camera_encapsulation/build/lib/CMakeFiles/edit_cache.dir
+/home/leona/Projects/OpenCV_learn/Camera_encapsulation/build/lib/CMakeFiles/rebuild_cache.dir
+/home/leona/Projects/OpenCV_learn/Camera_encapsulation/build/app/CMakeFiles/App.dir
+/home/leona/Projects/OpenCV_learn/Camera_encapsulation/build/app/CMakeFiles/edit_cache.dir
+/home/leona/Projects/OpenCV_learn/Camera_encapsulation/build/app/CMakeFiles/rebuild_cache.dir
