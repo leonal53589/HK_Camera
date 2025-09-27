@@ -150,6 +150,26 @@ int Camera::getNodeType(const std::string& nodeName, MV_XML_InterfaceType& nodeT
     return m_nRet;
 }
 
+// 曝光修改接口
+int Camera::setExposureTime(float exposureTime) {
+    return setValue("ExposureTime", exposureTime);
+}
+
+// 曝光获取接口
+int Camera::getExposureTime(float& exposureTime) {
+    return getValue("ExposureTime", exposureTime);
+}
+
+// 增益修改接口
+int Camera::setGain(float gain) {
+    return setValue("Gain", gain);
+}
+
+// 增益获取接口
+int Camera::getGain(float& gain) {
+    return getValue("Gain", gain);
+}
+
 // 开采
 int Camera::startGrabbing() {
     // 设置节点
@@ -240,8 +260,9 @@ cv::Mat Camera::convertToMat(unsigned char *pData, MV_FRAME_OUT_INFO_EX *pFrameI
             break;
             }
         }
-    // 返回深拷贝
-    return image.clone();
+    // 这里的 image 是作为输出参数传入的，cvtColor 会自动为 image 分配新的内存，完成颜色转换。
+    // 这是一个深拷贝操作，所以此处不需要再传回image.clone()，会增大性能开销
+    return image;
 }
 
 // 使用SDK自带的转换函数进行转换

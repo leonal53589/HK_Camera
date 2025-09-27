@@ -15,14 +15,14 @@ int main() {
             ret = -1;
             break;
         }
-        // 获取曝光时间和增益
+        // 获取曝光时间和增益（使用暴露出来的接口）
         float currExposureTime, currGain;
-        if(m_camera.getValue("ExposureTime", currExposureTime) != 0) {
+        if(m_camera.getExposureTime(currExposureTime) != 0) {
             std::cerr << "获取曝光时间失败!" << std::endl;
             ret = -1;
             break;
         }
-        if(m_camera.getValue("Gain", currGain) != 0) {
+        if(m_camera.getGain(currGain) != 0) {
             std::cerr << "获取增益失败!" << std::endl;
             ret = -1;
             break;

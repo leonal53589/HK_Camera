@@ -17,6 +17,11 @@ public:
     void printDeviceInformation();
     // 节点类型查询
     int getNodeType(const std::string& nodeName, MV_XML_InterfaceType& nodeType);
+    // 暴露出来的曝光和增益接口
+    int setExposureTime(float exposureTime);
+    int getExposureTime(float& exposureTime);
+    int setGain(float gain);
+    int getGain(float& gain);
     // 模板参数设置和获取
     template<typename T> int setValue(const std::string& nodeName, T value);
     template<typename T> int getValue(const std::string& nodeName, T& value);
